@@ -4,4 +4,3 @@
     file:
       path: "~/test_file"
       state: touch
-    become: yes
