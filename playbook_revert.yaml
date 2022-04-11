@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+  - name: Deleting a file
+    file:
+      path: "~/test_file"
+      state: absent
